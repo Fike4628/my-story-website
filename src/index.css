@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Blue mode (default/"light") */
+  body {
+    @apply font-body bg-[#0a1628] text-blue-100 transition-colors duration-300;
+  }
+  /* Black mode (dark) */
+  .dark body {
+    background-color: #000000;
+    color: #f1f5f9;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px;
+    background: linear-gradient(to right, #2563EB, #F59E0B);
+    z-index: 9999;
+    transition: width 0.1s ease;
+  }
+  .chapter-card {
+    @apply bg-[#0d1f3c] dark:bg-zinc-900 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden;
+  }
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors duration-200;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-full font-semibold hover:bg-primary hover:text-white transition-all duration-200;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-heading font-bold text-blue-100 dark:text-white mb-4;
+  }
+  .section-subtitle {
+    @apply text-blue-300 dark:text-slate-400 text-lg max-w-2xl mx-auto;
+  }
+}
+
+/* AOS custom */
+[data-aos] {
+  transition-duration: 600ms;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0a1628; }
+::-webkit-scrollbar-thumb { background: #2563EB; border-radius: 3px; }
+.dark ::-webkit-scrollbar-track { background: #111; }

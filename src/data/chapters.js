@@ -764,11 +764,11 @@ export const timelineEvents = [
   { year: "2016–2020", title: "Grades 6–10 — Rank #1", description: "Consistently ranked 1st in class through Grades 6, 7, 8, 9, and 10.", icon: "🥇" },
   { year: "2021", title: "Grade 11 — Rank #2", description: "Maintained top performance, finishing 2nd in Grade 11.", icon: "🥈" },
   { year: "2022", title: "Grade 12 — Rank #3", description: "Completed secondary school ranking 3rd, then passed the national entrance exam.", icon: "🥉" },
-  { year: "2021", title: "Passed Entrance Exam", description: "Successfully passed the national university entrance examination.", icon: "✅" },
+  { year: "2022", title: "Passed Entrance Exam", description: "Successfully passed the national university entrance examination.", icon: "✅" },
   { year: "2022", title: "Joined Haramaya University", description: "Enrolled at Haramaya University, a major milestone.", icon: "🎓" },
-  { year: "2022", title: "Chose Software Engineering", description: "Selected Software Engineering as my field of study.", icon: "💻" },
-  { year: "2023", title: "Learned Full Stack", description: "Mastered React, Node.js, Express, and MySQL through projects.", icon: "⚙️" },
-  { year: "2024", title: "Built Real Projects", description: "Developed multiple full-stack applications for real use cases.", icon: "🚀" },
+  { year: "2023", title: "Chose Software Engineering", description: "Selected Software Engineering as my field of study.", icon: "💻" },
+  { year: "2024", title: "Learned Full Stack", description: "Mastered React, Node.js, Express, and MySQL through projects.", icon: "⚙️" },
+  { year: "2024–2026", title: "Built Real Projects", description: "Developed multiple full-stack applications for real use cases.", icon: "🚀" },
   { year: "Future", title: "The Journey Continues", description: "Building toward becoming a software engineer and entrepreneur.", icon: "🌍" },
 ];
 
